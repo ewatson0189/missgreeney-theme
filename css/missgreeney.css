@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+html{
+    height: 100%;	
+}
+
+body {
+
+	margin: 0;
+
+	color: #000000;
+
+	background: #ffffff;
+
+	font-family: Arial, sans-serif;
+	
+	
+
+}
+
+
+
+/*Menu*/
+
+
+
+.menu-main-navigation-container{
+
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#636363+0,000000+100 */
+	background: #636363; /* Old browsers */
+	background: -moz-linear-gradient(top,  #636363 0%, #000000 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #636363 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #636363 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#636363', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+	border-bottom: 1px solid #ccc;
+
+}
+
+.menu-main-navigation-container ul{
+	
+	list-style: none;
+	margin: 0 auto;
+	padding: 0; 
+}
+
+.menu-main-navigation-container li{
+	float: left;
+}
+
+.menu-main-navigation-container li a{
+	display: block;
+	padding: 8px 15px;
+	font-family: 'Prompt', sans-serif;
+    text-decoration: none;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+	border-right: 1px solid #000000;
+	border-left: 1px solid #575757;
+}
+
+.menu-main-navigation-container li a:hover{
+      background:#000000;
+}
+
+/*Main Page Content*/
+
+.main-content{
+	padding:20px;
+	background-color: #DDA8E9;
+}
+
+/*Blog Sidebar*/
+
+.blog-sidebar{
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+  border: 1px solid black;
+}
+
+/*Blog Post Stuff*/
+
+.blog-full{
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  width: 70%;
+  border: 1px solid black;
+	
+	
+}
+
+.title-blog {
+
+	color: #404040;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+.date-time {
+
+	color: #FF0004;
+
+}
+
+
+
+.blog-content p a {
+
+	text-decoration:none;
+
+}
+
+
+
+p.wp-caption-text {
+
+	font-size: 12px;
+
+}
+
+/*Blog image wrapping*/
+
+
+
+img.alignright {
+
+	float: right;
+
+	margin: 0 0 1em 1em;
+
+}
+
+img.alignleft {
+
+	float: left;
+
+	margin: 0 1em 1em 0;
+
+}
+
+img.aligncenter {
+
+	display: block;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+}
+
+.alignright {
+
+	float: right;
+
+}
+
+.alignleft {
+
+	float: left;
+
+}
+
+.aligncenter {
+
+	display: block;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+}
+
+
+
+/*Post Grid*/
+
+.container-fluid{
+	padding: 0;
+}
+
+.rt-tpg-container .layout1 .rt-holder .rt-img-holder .overlay {
+
+    width: 100%;
+
+    height: 100%;
+
+    display: block;
+
+    background: rgba(0, 31, 255, 0.1);
+
+    position: absolute;
+
+    z-index: 1;
+
+    opacity: 0;
+
+    -webkit-transition: all 0.3s ease-out 0s;
+
+    -moz-transition: all 0.3s ease-out 0s;
+
+    -ms-transition: all 0.3s ease-out 0s;
+
+    -o-transition: all 0.3s ease-out 0s;
+
+    transition: all 0.3s ease-out 0s;
+
+    text-align: center;
+
+}
+
+
+
+.rt-tpg-container .layout1 .rt-holder .rt-img-holder .overlay .view-details {
+
+	display:none;
+
+}
+
+.rt-tpg-container .layout1 .rt-holder .rt-detail{
+	background:none;
+}
+
+
+
+.rt-tpg-container .layout1 .rt-holder .rt-detail h2 a {
+
+    font-size: 16px;
+
+	text-decoration: none;
+
+}
+
+/*Footer*/
+footer{
+	clear: both;
+}
+
