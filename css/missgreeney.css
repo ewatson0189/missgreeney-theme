@@ -17,6 +17,7 @@ body {
 	background: #ffffff;
 
 	font-family: Arial, sans-serif;
+	box-sizing: border-box;
 	
 	
 
@@ -42,6 +43,7 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#636363', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 
 	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
 
 }
 
@@ -76,6 +78,7 @@ body {
 .main-content{
 	padding:20px;
 	background-color: #DDA8E9;
+	box-sizing: border-box;
 }
 
 /*Blog Sidebar*/
@@ -86,9 +89,14 @@ body {
   padding: 5px;
   width: 25%;
   border: 1px solid black;
+  box-sizing: border-box;
 }
 
 /*Blog Post Stuff*/
+
+.blog-full-page{
+    max-width: 100%;
+}
 
 .blog-full{
   float: left;
@@ -96,9 +104,16 @@ body {
   padding: 5px;
   width: 70%;
   border: 1px solid black;
-	
-	
+  box-sizing: border-box;
+
 }
+
+/*@media only screen and (max-width: 896px) {
+	
+    .blog-full {
+        box-sizing: border-box;
+    }
+}*/
 
 .title-blog {
 
